@@ -1,0 +1,467 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	font-family: tahoma;
+}
+ul, ol {
+	list-style: none;
+}
+a {
+	text-decoration: none;
+}
+h2 {
+	text-align: left;
+	font-size: 35px;
+}
+.main {
+	height: 70px;
+	background-color: white;
+	box-shadow: 0px -7px 15px 2px black;
+
+}
+.main_right {
+	height: 100%;
+	width: 30%;
+	float: right;
+/*	background-color: linen;*/
+	position: relative;
+}
+.one {
+	height: 72%;
+	width: 25%;
+	/*background-color: red;*/
+	position: relative;
+	border-radius: 25px 30px 30px 25px;
+}
+.one:hover {
+	background-color: white;
+	box-shadow: 0px 0px 5px -3px;
+}
+.one img {
+	height: 50px;
+	width: 50px;
+	border-radius: 50%;
+	display: block;
+	margin: 10px 0px 0px 10px;
+}
+.one p {
+	display: inline-block;
+	float: right;
+/*	background-color: yellow;*/
+	position: absolute;
+	top: 16px;
+	right: 10px;
+}
+.two {
+	height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: lightgray;
+    position: absolute;
+    top: 10px;
+    left: 130px;
+    margin-bottom: 20px;
+}
+.two p {
+	font-size: 30px;
+	text-align: center;
+	margin-top: 6px;
+	color: black;
+}
+.create {
+	height: 40px;
+	width: 68px;
+	background-color: black;
+	border-radius: 10px;/*	position: absolute;
+	top: 0px;
+	left: 115px;*/
+	overflow: hidden;
+	display: none;
+	margin-top: 20px;
+}
+.create:hover {
+	background-color: gray;
+}
+.create p {
+	color: white;
+	font-size: 14px;
+	text-align: center;
+	margin-top: 10px;
+}
+.two:hover .create {
+	background-color: black;
+    display: block;
+
+}
+.div_two {
+	height: 560px;
+    width: 390px;
+    background-color: white;
+    position: absolute;
+    top: 114%;
+    right: 0px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px -5px black;
+    display: none;
+}
+.div_two h2 {
+	margin: 10px 15px;
+	font-weight: normal;
+	font-size: 25px;
+}
+.div_two hr {
+	color: #D8D9DD;
+	margin: 5px 12px;
+}
+.div_two_one {
+	height: 80px;
+	border-radius: 10px;
+	margin: 0px 10px;
+/*	background-color: red;*/
+}
+.div_two_one img {
+	height: 45px;
+	width: 45px;
+	border-radius: 50%;
+	display: block;
+	float: left;
+	margin: 15px;
+}
+.div_two_one span:nth-child(2) {
+	float: left;
+	margin: 16px 15px 0px 15px;
+	font-size: 20px;
+	color: #050505;
+}
+.div_two_one span:nth-child(4) {
+	float: left;
+	margin: 0px 15px;
+	color: #808080;
+}
+.div_two_one:hover {
+	background-color: #F2F2F2;
+	border-radius: 10px;
+	margin: 0px 10px;
+}
+.three {
+	height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: lightgray;
+    position: absolute;
+    top: 10px;
+    left: 200px;
+    margin-bottom: 20px;
+}
+.three .logom {
+	font-size: 25px;
+	text-align: center;
+	margin-top: 13px;
+	margin-left: 12px;
+	color: black;
+}
+.messenger {
+	height: 40px;
+	width: 100px;
+	background-color: black;
+	border-radius: 10px;/*	position: absolute;
+	top: 0px;
+	left: 115px;*/
+	overflow: hidden;
+	display: none;
+	margin-top: 20px;
+}
+.messenger:hover {
+	background-color: gray;
+}
+.messenger p {
+	color: white;
+	font-size: 14px;
+	text-align: center;
+	margin-top: 10px;
+}
+.three:hover .messenger {
+	background-color: black;
+    display: block;
+
+}
+.div_three {
+	height: 560px;
+    width: 390px;
+    background-color: white;
+    position: absolute;
+    top: 114%;
+    right: 0px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px -5px black;
+    display: none;
+}
+.div_three img {
+	height: 130px;
+	width: 100%;
+}
+.four {
+	height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: lightgray;
+    position: absolute;
+    top: 10px;
+    left: 270px;
+    margin-bottom: 20px;
+}
+.four .bell {
+	font-size: 25px;
+	text-align: center;
+	margin-top: 12px;
+	margin-left: 14px;
+	color: black;
+}
+.notification {
+	height: 40px;
+	width: 100px;
+	background-color: black;
+	border-radius: 10px;/*	position: absolute;
+	top: 0px;
+	left: 115px;*/
+	overflow: hidden;
+	display: none;
+	margin-top: 20px;
+}
+.notification:hover {
+	background-color: gray;
+}
+.notification p {
+	color: white;
+	font-size: 14px;
+	text-align: center;
+	margin-top: 10px;
+}
+.four:hover .notification {
+	background-color: black;
+    display: block;
+
+}
+.notification2 {
+	height: 560px;
+    width: 390px;
+    background-color: white;
+    position: absolute;
+    top: 114%;
+    right: 0px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px -5px black;
+    display: none;
+}
+.notification2 h2 {
+	margin: 15px;
+	font-size: 30px;
+	display: inline-block;
+}
+.notification2_dot {
+	height: 50px;
+	width: 50px;
+	border-radius: 50%;
+	font-weight: bold;
+	font-size: 30px;
+	float: right;
+	margin: 15px;
+	color: black;
+
+}
+.notification2_dot .dot3 {
+	color: #90949A;
+	margin: 15px;
+	font-size: 20px;
+}
+.notification2_dot:hover {
+	background-color: #F2F2F2;
+}
+.notification2 h3 {
+	margin: 5px 15px;
+}
+.notification2_div {
+	height: 85px;
+	background-color: white;
+	margin: 0px 10px;
+	border-radius: 10px;
+}
+.notification2_div:hover {
+	background-color: #F2F2F2;
+	border-radius: 10px;
+}
+.notification2_div_left {
+	height: 100%;
+	width: 20%;
+	border-radius: 10px 0px 0px 10px;
+/*	background-color: blue;*/
+	float: left;
+	position: relative;
+	z-index: 2;
+}
+.notification2_div_left img {
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    margin: 11px 8px;
+}
+.div_chat {
+	height: 30px;
+	width: 30px;
+	border-radius: 50%;
+	background-color: #54C070;
+	position: absolute;
+	top: 45px;
+	left: 43px;
+}
+.div_chat2 {
+	height: 30px;
+	width: 30px;
+	border-radius: 50%;
+	background-color: #54C070;
+	position: relative;
+}
+.div_chat2 .chat {
+	position: absolute;
+	top: 8px;
+	left: 7px;
+	color: white;
+}
+.notification2_div_right {
+	height: 100%;
+	width: 80%;
+    float: left;
+/*	background-color: linen;*/
+    position: relative;
+    border-radius: 0px 10px 10px 0px;
+    z-index: 2;
+}
+.notification2_div_right p {
+/*	background-color: yellow;*/
+	margin: 10px 55px 10px 10px;
+	color: #7A7C7F;
+}
+.notification2_div_right p span {
+	font-size: 18px;
+	font-weight: bold;
+}
+.notification2_dotdown {
+	height: 50px;
+	width: 50px;
+	border-radius: 50%;
+	background-color: white;
+	position: absolute;
+	top: 18px;
+	right: 15px;
+	border: 1px solid lightgray;
+	display: none;
+}
+.notification2_div_right:hover .notification2_dotdown {
+	display: block;
+}
+
+.dot3down {
+	font-size: 20px;
+	margin: 14px;
+	color: #90949A;
+	position: relative;
+}
+.press {
+	height: 190px;
+	width: 380px;
+	border-radius: 10px;
+	background-color: white;
+	margin: 20px 0px 0px -290px;
+/*	overflow: hidden;*/
+	box-shadow: 0px 0px 9px -3px;
+	z-index: 100;
+	position: absolute;
+	top: 20px;
+	right: -50px;
+}
+.press_one {
+	height: 18%;
+	margin: 10px;
+}
+.press_one:hover {
+    background-color: #F2F2F2;
+    border-radius: 10px;
+}
+.tik {
+	margin: 10px;
+}
+.press_two {
+	height: 18%;
+	margin: 10px;
+}
+.press_two:hover {
+    background-color: #F2F2F2;
+    border-radius: 10px;
+}
+.tik2 {
+	margin: 10px;
+}
+.press_three {
+	height: 18%;
+	margin: 10px;
+}
+.press_three:hover {
+    background-color: #F2F2F2;
+    border-radius: 10px;
+}
+.tik3 {
+	margin: 10px;
+}
+.press_four {
+	height: 18%;
+	margin: 10px;
+}
+.press_four:hover {
+    background-color: #F2F2F2;
+    border-radius: 10px;
+}
+.tik4 {
+	margin: 10px;
+}
+.five {
+	height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: lightgray;
+    position: absolute;
+    top: 10px;
+    left: 340px;
+    margin-bottom: 20px;
+}
+.five .logo {
+	font-size: 25px;
+	text-align: center;
+	margin-top: 13px;
+	margin-left: 17px;
+	color: black;
+}
+.account {
+	height: 40px;
+	width: 68px;
+	background-color: black;
+	border-radius: 10px;/*	position: absolute;
+	top: 0px;
+	left: 115px;*/
+	overflow: hidden;
+	display: none;
+	margin-top: 20px;
+}
+.account:hover {
+	background-color: gray;
+}
+.account p {
+	color: white;
+	font-size: 14px;
+	text-align: center;
+	margin-top: 10px;
+}
+.five:hover .account {
+	background-color: black;
+    display: block;
+
+}
